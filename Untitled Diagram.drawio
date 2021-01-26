@@ -1,11 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2021-01-26T20:24:09.039Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="5Hmwy-RDCvSS654O036Z" version="14.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-26T20:36:17.841Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="xS4xM9bmmx3xdlQ55hJB" version="14.2.6" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-2" value="Opportunities" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="30" width="250" height="470" as="geometry" />
+          <mxGeometry x="280" y="30" width="250" height="470" as="geometry">
+            <mxRectangle x="280" y="30" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-3" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="C-vyLk0tnHw3VtMMgP7b-2" vertex="1">
           <mxGeometry y="30" width="250" height="140" as="geometry" />
@@ -43,8 +45,16 @@
         <mxCell id="cmVOdVhynBlmCmBzbenZ-27" value="Покупатели" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="cmVOdVhynBlmCmBzbenZ-10">
           <mxGeometry x="60" y="30" width="80" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="cmVOdVhynBlmCmBzbenZ-62" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;fontSize=11;" edge="1" parent="1" source="cmVOdVhynBlmCmBzbenZ-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="320.83333333333337" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cmVOdVhynBlmCmBzbenZ-11" value="PRODUCT" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="40" y="290" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cmVOdVhynBlmCmBzbenZ-58" value="Вид продукта для реализации" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=11;" vertex="1" parent="cmVOdVhynBlmCmBzbenZ-11">
+          <mxGeometry x="15" y="30" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cmVOdVhynBlmCmBzbenZ-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="cmVOdVhynBlmCmBzbenZ-12" target="cmVOdVhynBlmCmBzbenZ-10">
           <mxGeometry relative="1" as="geometry" />
@@ -97,31 +107,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cmVOdVhynBlmCmBzbenZ-45" value="amount - объем продукции" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="310" y="230" width="220" height="30" as="geometry" />
+          <mxGeometry x="310" y="226" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cmVOdVhynBlmCmBzbenZ-47" value="opty_id - уникальный ID возможности" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="310" y="260" width="220" height="30" as="geometry" />
+        <mxCell id="cmVOdVhynBlmCmBzbenZ-47" value="status - статус возможности" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="310" y="254" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cmVOdVhynBlmCmBzbenZ-48" value="opty_id - уникальный ID возможности" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="310" y="290" width="220" height="30" as="geometry" />
+        <mxCell id="cmVOdVhynBlmCmBzbenZ-48" value="expected_close_date - ожидаемая дата завершения сделки" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="285" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cmVOdVhynBlmCmBzbenZ-49" value="opty_id - уникальный ID возможности" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="310" y="320" width="220" height="30" as="geometry" />
+        <mxCell id="cmVOdVhynBlmCmBzbenZ-49" value="lead_bool - процесс создания через лид или нет" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="322" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cmVOdVhynBlmCmBzbenZ-50" value="opty_id - уникальный ID возможности" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="310" y="350" width="220" height="30" as="geometry" />
+        <mxCell id="cmVOdVhynBlmCmBzbenZ-50" value="estimated_profit - ожидаемая прибыль" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="310" y="353" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cmVOdVhynBlmCmBzbenZ-51" value="opty_id - уникальный ID возможности" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="cmVOdVhynBlmCmBzbenZ-51" value="sec_check  - статус проверки" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="310" y="380" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cmVOdVhynBlmCmBzbenZ-52" value="opty_id - уникальный ID возможности" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="cmVOdVhynBlmCmBzbenZ-52" value="new_client_bool - возможность для нового клиента или старого" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="310" y="410" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cmVOdVhynBlmCmBzbenZ-53" value="opty_id - уникальный ID возможности" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="310" y="440" width="220" height="30" as="geometry" />
+        <mxCell id="cmVOdVhynBlmCmBzbenZ-53" value="close_date - фактическая дата завершения сделки" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontSize=11;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="446" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cmVOdVhynBlmCmBzbenZ-56" value="Город отделения / покупателя" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="615" y="490" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmVOdVhynBlmCmBzbenZ-59" value="Календарь" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="105" y="170" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
